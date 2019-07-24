@@ -1,6 +1,9 @@
 # customtabs
 Personalized custom tab view
 
+## demo
+https://im4.ezgif.com/tmp/ezgif-4-92d45f24fbb0.gif
+
 ## Installation
 Add customtabs.css and cusomtabs.js in your project directory.
 
