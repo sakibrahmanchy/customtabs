@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <style>
+           .headers {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;    
+                background-color: transparent;
+            }
+
+            .headers > a {
+                background-color: #f1f1f1;
+                margin: 2px;
+                padding: 0px 20px 0px 20px;
+                font-size: 30px;
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+                flex: 1;
+            }
+            
+            .headers > a.active {
+                background: teal;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-container" id="tabs-container">
+            <div class="headers">
+                <a href="#html" class="active">Html</a>
+                <a>CSS</a>
+                <a>CSS</a>
+                <a>CSS</a>
+                <a>CSS</a>
+                <a>CSS</a>
+            </div>
+            <div class="body">
+                <div id="html"></div>
+                <div id="css"></div>
+            </div>
+        </div>
+
+        <script>
+            // console.log('here');
+            // var tabs = [1,2,"Three",4,5,7,8,9,10,11,12,13,14,15,11,12,13,14,15];
+                var tabsContainer = document.getElementById('tabs-container');
+            //     tabs.forEach((tab) => {
+            //         var divNode = document.createElement("div");
+            //         divNode.appendChild(document.createTextNode(tab))
+            //         tabsContainer.appendChild(divNode);
+            //     })
+            // (function() {
+               
+            // });
+        </script>
+    </body>
+</html>
