@@ -1,0 +1,38 @@
+.headers {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.headers>a {
+    background-color: #f1f1f1;
+    margin: 2px;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    cursor: pointer;
+}
+
+.headers>a.active {
+    background: teal;
+    color: white;
+}
+
+.body>div {
+    margin: 2px;
+}
+
+.body>div.tab {
+    display: none;
+}
+
+.body>div.active {
+    background: silver;
+    padding: 5px;
+    display: block;
+}
