@@ -1,6 +1,9 @@
 # customtabs
 Personalized custom tab view
 
+## Installation
+Add customtabs.css and cusomtabs.js in your project directory.
+
 # Define headers 
 ```
  <div class="headers "> // Define headers 
